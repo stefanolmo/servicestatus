@@ -25,7 +25,7 @@ $data = "";
 $data .= '
 <div class="card my-2">
   <h4 class="card-header text-center">
-    Service status
+    DNS status
   </h4>
   <div class="card-body pb-0">
 ';
@@ -44,15 +44,8 @@ $services = array();
 
 
 $services[] = array("port" => "53",       "service" => "DNS Aruba 1",                  "ip" => "ns.abdns.biz") ;
-$services[] = array("port" => "21",       "service" => "FTP",                     "ip" => "") ;
-$services[] = array("port" => "3306",     "service" => "MYSQL",                   "ip" => "") ;
-// $services[] = array("port" => "3000",     "service" => "Mastodon web",                   "ip" => "") ;
-// $services[] = array("port" => "4000",     "service" => "Mastodon streaming",                   "ip" => "") ;
-$services[] = array("port" => "22",       "service" => "Open SSH",				"ip" => "") ;
-$services[] = array("port" => "58846",     "service" => "Deluge",             	"ip" => "") ;
-$services[] = array("port" => "8112",     "service" => "Deluge Web",             	"ip" => "") ;
-$services[] = array("port" => "80",       "service" => "Internet Connection",     "ip" => "google.com") ;
-$services[] = array("port" => "8083",     "service" => "Vesta panel",             	"ip" => "") ;
+$services[] = array("port" => "53",       "service" => "DNS Aruba 2",                  "ip" => "ns.abdns.eu") ;
+$services[] = array("port" => "53",       "service" => "DNS Aruba 3",                  "ip" => "ns.abdns.info") ;
 
 
 //begin table for status
