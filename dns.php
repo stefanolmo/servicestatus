@@ -25,7 +25,7 @@ $data = "";
 $data .= '
 <div class="card my-2">
   <h4 class="card-header text-center">
-    DNS status
+    ARUBA DNS status
   </h4>
   <div class="card-body pb-0">
 ';
